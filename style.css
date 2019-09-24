@@ -3,6 +3,11 @@ body{
   color: #434343;
 }
 
+div{
+  display: block;
+
+}
+
 a{
   color: #434343;
   text-decoration: none;
@@ -23,6 +28,7 @@ li{
   width: 960px;
   margin: 0 auto;
   padding: 0 10px;
+  text-align: left;
 }
 
 #snb_wrap{
@@ -315,4 +321,47 @@ li .Ntxt_star_rate{
   width: 37px;
   height: 12px;
   background-position: -110px -80px;
+}
+
+.webtoon_area{
+  float: left;
+  width: 582px;
+  height: 195px;
+}
+
+.webtoon_area a{
+  display: block;
+  height: 195px;
+}
+
+.webtoon_list{
+  position: relative;
+  height: 57px;
+  padding: 0 20px 0 19px;
+  border-left: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+}
+
+.webtoon_list .lst_area{
+  float: left;
+  width: 134px;
+  height: 57px;
+  border-left: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+}
+
+.webtoon_list .lst_area ul{
+  margin: 0;
+  padding: 0;
+  height: 57px;
+}
+
+.webtoon_list .lst_area li.sel .sel_bar{
+  position: absolute;
+  z-index: 10;
+  left: -1px;
+  bottom: 0;
+  width: 136px;
+  height: 2px;
+  background: #222;
 }
