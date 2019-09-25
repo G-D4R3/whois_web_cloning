@@ -5,7 +5,8 @@ body{
 
 div{
   display: block;
-
+  margin: 0;
+  padding: 0;
 }
 
 a{
@@ -17,6 +18,10 @@ fieldset{
   border: 0;
   margin: 0;
   padding: 0;
+}
+
+p{
+  margin: 0;
 }
 
 li{
@@ -52,6 +57,7 @@ li{
   height: 10px;
   font-size: 10px;
   background-position: 0 -170px;
+  background: url("title.png");
   margin-top: 6px;
 }
 
@@ -122,8 +128,9 @@ li{
   position: absolute;
   top: 0;
   right: 0;
-  width: 35px;
-  height: 35px;
+  margin: 9px;
+  width: 16px;
+  height: 16px;
   border: 0;
   background: 0;
   -webkit-appearance: none;
@@ -131,6 +138,7 @@ li{
   -webkit-border-radius: 0;
   cursor: pointer;
   padding: 8px;
+  background-image: url("magnifying-glass.png");
 }
 
 
@@ -250,6 +258,7 @@ li{
 
 
 .mainTopArea{
+  position: relative;
   width: 960px;
   margin: 0 auto;
   padding: 12px 10px 14px;
@@ -257,10 +266,12 @@ li{
 
 .main_spot{
   float: left;
+  position: relative;
 }
 
 .data_area{
   float: left;
+  position: relative;
   width: 91px;
   height: 250px;
   padding: 0 5px 0 15px;
@@ -336,15 +347,18 @@ li .Ntxt_star_rate{
 
 .webtoon_list{
   position: relative;
-  height: 57px;
+  top: 0;
+  left: 0;
+  height: 56px;
   padding: 0 20px 0 19px;
   border-left: 1px solid #e5e5e5;
   border-right: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .webtoon_list .lst_area{
   float: left;
-  width: 134px;
+  width: 541px;
   height: 57px;
   border-left: 1px solid #e5e5e5;
   border-right: 1px solid #e5e5e5;
@@ -356,6 +370,15 @@ li .Ntxt_star_rate{
   height: 57px;
 }
 
+.webtoon_list .lst_area li{
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 134px;
+  height: 57px;
+  border-left: 1px solid #e5e5e5;
+}
+
 .webtoon_list .lst_area li.sel .sel_bar{
   position: absolute;
   z-index: 10;
@@ -364,4 +387,317 @@ li .Ntxt_star_rate{
   width: 136px;
   height: 2px;
   background: #222;
+}
+
+.webtoon_list a{
+  position: absolute;
+  height: 57px;
+}
+
+.webtoon_list .btn_prev{
+  left: 0;
+  padding-top: 23px;
+  width: 19px;
+  height: 34px;
+}
+
+.webtoon_list .btn_prev_arr{
+  margin-left: 6px;
+  color: #d0d0d0;
+}
+
+.webtoon_list .btn_next{
+  left: 562px;
+  padding-top: 23px;
+  width: 20px;
+  height: 34px;
+}
+
+.webtoon_list .btn_next_arr{
+  margin-left: 7px;
+  color: #d0d0d0;
+  background-position: -106px, -240px;
+}
+
+.todayChallenge{
+  float: left;
+  width: 202px;
+  height: 250px;
+  padding: 0 18px;
+  background: #f9f9fc;
+  border: 1px solid #ebebeb;
+  margin-left: 26px;
+}
+
+.todayChallenge .Ntxt_new_best{
+  width: 148px;
+  height: 16px;
+  font-size: 16px;
+  background-position: -240px -100px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
+.todayChallenge .best_photo{
+  position: relative;
+  height: 110px;
+  margin-top: 11px;
+  border: 1px solid #e5e5e5;
+}
+
+.todayChallenge dl{
+  display: block;
+  margin-top: 18px;
+}
+
+.todayChallenge dt{
+  position: relative;
+  padding-right: 62px;
+  height: 18px;
+  color: #434343;
+  font-weight: bold;
+}
+
+.todayChallenge dt .challenge_title{
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 13px;
+  color: #000;
+  height: 16px;
+}
+
+.todayChallenge dt span{
+  width: 55px;
+  font-weight: normal;
+  color: #a3a3a3;
+  position: absolute;
+  right: 0;
+  top: 2px;
+  text-align: right;
+  opacity: .85;
+}
+
+.todayChallenge dt .challenge_id{
+  color: #414141;
+}
+
+.todayChallenge dd{
+  letter-spacing: -1px;
+  margin-top: 3px;
+  margin-left: 0;
+  margin-right: 0;
+  line-height: 18px;
+}
+
+.todayChallenge dd a{
+  color: #848889;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+#container{
+  clear: both;
+  position: relative;
+  width: 980px;
+  min-height: 100%;
+  padding: 8px 0 100px;
+  margin: 0 auto;
+}
+
+#content{
+  float: left;
+  position: relative;
+  width: 694px;
+  padding-left: 10px;
+}
+
+.genreRecomBox{
+  overflow: hidden;
+}
+
+ul.genreRecom>li{
+  float: left;
+  padding: 0 10px;
+  width: 218px;
+}
+
+.genreRecomBox h3.titleMain{
+  margin: 0;
+  font-size: 16px;
+  border-bottom: 0;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  width: 694px;
+  height: 16px;
+}
+
+.genreRecomBox h3 .titleMain .Ntxt_genre_webtoon{
+  font-size: 16px;
+  width: 112px;
+  height: 16px;
+  background-position: -110px -100px;
+}
+
+
+.tab_gr{
+  margin-top: 12px;
+}
+
+.tab_gr ul{
+  border-bottom: 1px solid #e5e5e5;
+  height: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+.tab_gr ul li:first-child{
+  padding-left: 0;
+}
+
+.tab_gr ul li{
+  float: left;
+  padding: 0 6px;
+}
+
+.tab_gr ul li a{
+  display: inline-block;
+  font-size: 13px;
+  color: #737373;
+  padding: 0 2px 6px;
+}
+
+.tab_gr ul li.on a{
+  font-weight: bold;
+  color: #00c85e;
+  border-bottom: 2px solid #00d564;
+  margin-bottom: -1px;
+}
+
+.view_type{
+  overflow: hidden;
+  height: 15px;
+  margin: 12px 0;
+}
+
+.view_type .sortby{
+  margin-top: 3px;
+  margin-bottom: 0;
+  padding: 0;
+  width: 140px;
+  float: right;
+}
+
+.sortby li{
+  float: left;
+  margin-left: 6px;
+  font-size: 12px;
+}
+
+.sortby li:first-child {
+  margin-left: 0;
+}
+
+.sortby li a{
+  display: block;
+  height: 12px;
+  color: #434343;
+}
+
+li.sel{
+  font-weight: 600;
+}
+
+li.sel .Ntxt_update{
+  background-position: 0 -60px;
+  width: 54px;
+  height: 12px;
+}
+
+li .Ntxt_count{
+  width: 37px;
+  height: 12px;
+  background-position: -65px -80px;
+}
+
+li .Ntxt_star_rate{
+  width: 37px;
+  height: 12px;
+  background-position: -110px -80px;
+}
+
+ul.genreRecom{
+  overflow: hidden;
+  margin: 0 -10px;
+  padding-left: 0;
+  padding-bottom: 17px;
+}
+
+ul.genreRecom li{
+  width: 218px;
+  height: 196px;
+}
+
+.genreRecomBox p{
+  padding: 5px 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.genreRecomImg2{
+  position: relative;
+  height: 120px;
+}
+
+.genreRecomImg2 .mask{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid #000;
+  opacity: .1;
+}
+
+.genreRecomInfo2{
+  position: relative;
+  margin-top: 11px;
+  width: 218px;
+  height: 55px;
+}
+
+.genreRecomInfo2 div{
+  margin: 0;
+  padding: 0;
+}
+
+.genreRecomInfo2 h6{
+  color: #434343;
+  font-size: 12px;
+}
+
+.genreRecomInfo2 h6.title{
+  margin: 0;
+  font-size: 12px;
+}
+
+.genreRecomInfo2 h6.title a{
+  display: block;
+  overflow: hidden;
+  color: #323232;
+}
+
+.genreRecomInfo2 h6.title a span{
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.genreRecomInfo2 .user{
+  color: #767676;
 }

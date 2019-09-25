@@ -9,7 +9,7 @@
       <div id="header">
         <div id="snb_wrap">
           <h1>
-            <a title="NAVER" class="Ntxt_naver">NAVER</a>
+            <a title="NAVER" class="Ntxt_naver"></a>
             <a title="만화" class="Ntxt_comic">만화</a>
             <em class="bar">|</em>
             <a title="웹소설" class="Ntxt_novel">웹소설</a>
@@ -20,7 +20,7 @@
                 <label class="ph" for="header.keyword" style="display: inline;">제목/작가로 검색할 수 있습니다.</label>
                 <input type="text" id="header.keywork" class="snb_search_text" name="keyword" value title="검색어 입력" maxlength="18">
                 <button type="button" class="btn_search" title="검색" alt="검색">
-                  <span class="Nico_search">검색</span>
+                  <span class="Nico_search"></span>
                 </button>
               </div>
           </form>
@@ -79,28 +79,257 @@
             </li>
           </ul>
         </div>
-        
+
         <div class="webtoon_area">
           <a><img src="top_big_image.png"; width="582" height="195"></a>
-        </div>
-
-        <div class="webtoon_list">
-          <div class="lst_area">
-            <ul id="comicList" style="margin-left:0px; width:541px; height:57px;">
-              <li>
-                <a>
-                  <img src="webtoon_list1.png" width="134" height="56" data-index="1">
-                  <span class="sel_bar"></span>
-                </a>
-              </li>
-            </ul>
+          <div class="webtoon_list">
+            <div class="lst_area">
+              <ul id="comicList" style="margin-left:0px; width:541px; height:57px;">
+                <li>
+                  <a>
+                    <img src="webtoon_list1.png" width="134" height="56" data-index="1">
+                    <span class="sel_bar"></span>
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    <img src="webtoon_list2.png" width="134" height="56" data-index="1">
+                    <span class="sel_bar"></span>
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    <img src="webtoon_list3.png" width="134" height="56" data-index="1">
+                    <span class="sel_bar"></span>
+                  </a>
+                </li>
+                <li>
+                  <a>
+                    <img src="webtoon_list4.png" width="134" height="56" data-index="1">
+                    <span class="sel_bar"></span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <a class="btn_prev"><span class="btn_prev_arr"><</span></a>
+            <a class="btn_next"><span class="btn_next_arr">></span></a>
           </div>
-
         </div>
+      </div>
+
+      <div class="todayChallenge">
+        <h4 class="Ntxt_new_best">새로운 베스트 도전만화</h4>
+        <p class="best_photo">
+          <img width="200" height="110" src="new_best_chal.png">
+        </p>
+        <dl>
+          <dt>
+            <a class="challenge_title">엔드시즌</a>
+            <span><a class="challenge_id">jaemysta</a></span>
+          </dt>
+          <dd class="ellipsis_content" style="height: 54px;">
+            <a>초등학교 4학년 한정우, 그리고 그에게 펼쳐지는 복잡한 야구 인생</a>
+          </dd>
+        </dl>
       </div>
     </div>
 
-    <div>
+
+    <div id="container">
+      <div id="content">
+        <div class="genreRecomBox">
+          <h3 class="titleMain">
+            <a><span class="Ntxt_genre_webtoon">장르별 추천웹툰 ></span></a>
+          </h3>
+          <div class="tab_gr">
+            <ul>
+              <li>
+                <a id="episode" title="에피소드">에피소드</a>
+              </li>
+              <li>
+                <a id="omnibus" title="옴니버스">옴니버스</a>
+              </li>
+              <li class="on">
+                <a id="story" title="스토리">스토리</a>
+                <span class="bar"></span>
+              </li>
+              <li>
+                <a id="daily" title="일상">일상</a>
+              </li>
+              <li>
+                <a id="comic" title="개그">개그</a>
+              </li>
+              <li>
+                <a id="fantasy" title="판타지">판타지</a>
+              </li>
+              <li>
+                <a id="action" title="액션">액션</a>
+              </li>
+              <li>
+                <a id="drama" title="드라마">드라마</a>
+              </li>
+              <li>
+                <a id="pure" title="순정">순정</a>
+              </li>
+              <li>
+                <a id="sensibility" title="감성">감성</a>
+              </li>
+              <li>
+                <a id="thrill" title="스릴러">스릴러</a>
+              </li>
+              <li>
+                <a id="historical" title="시대극">시대극</a>
+              </li>
+              <li>
+                <a id="sports" title="스포츠">스포츠</a>
+              </li>
+            </ul>
+          </div>
+          <div class="view_type">
+            <ul class="sortby">
+              <li class="sel">
+                <a id="Update"><span class="Ntxt_update">업데이트순</span></a>
+              </li>
+              <li>
+                <a id="ViewCount"><span class="Ntxt_count">조회순</span></a>
+              </li>
+              <li>
+                <a id="StarScore"><span class="Ntxt_star_rate">별점순</span></a>
+              </li>
+            </ul>
+          </div>
+          <ul id="genreRecommand" class="genreRecom">
+            <li>
+              <div class="genreRecomImg2">
+                <a>
+                  <span class="mask"></span>
+                  <img width="218" height="120" src="gen_recom1.png">
+                </a>
+              </div>
+
+              <div class="genreRecomInfo2">
+                <h6 class="title">
+                  <a><span>치즈인더트랩 (재)</span></a>
+                </h6>
+                <p>
+                  <a><span>4부 5화 표적(2)</span></a>
+                </p>
+                <span class="user">
+                  <a>순끼</a>
+                </span>
+              </div>
+            </li>
+            <li>
+              <div class="genreRecomImg2">
+                <a>
+                  <span class="mask"></span>
+                  <img width="218" height="120" src="gen_recom2.png">
+                </a>
+              </div>
+
+              <div class="genreRecomInfo2">
+                <h6 class="title">
+                  <a><span>성공한 덕후</span></a>
+                </h6>
+                <p>
+                  <a><span>93화 혹시나 잠든 사이에..</span></a>
+                </p>
+                <span class="user">
+                  <a>옛사람</a>
+                </span>
+              </div>
+            </li>
+            <li>
+              <div class="genreRecomImg2">
+                <a>
+                  <span class="mask"></span>
+                  <img width="218" height="120" src="gen_recom3.png">
+                </a>
+              </div>
+
+              <div class="genreRecomInfo2">
+                <h6 class="title">
+                  <a><span>모죠의 일지</span></a>
+                </h6>
+                <p>
+                  <a><span>42화. 놀이터에서 노는 만화</span></a>
+                </p>
+                <span class="user">
+                  <a>모죠</a>
+                </span>
+              </div>
+            </li>
+
+            <li>
+              <div class="genreRecomImg2">
+                <a>
+                  <span class="mask"></span>
+                  <img width="218" height="120" src="gen_recom4.png">
+                </a>
+              </div>
+
+              <div class="genreRecomInfo2">
+                <h6 class="title">
+                  <a><span>오늘의 순정망화</span></a>
+                </h6>
+                <p>
+                  <a><span>163화</span></a>
+                </p>
+                <span class="user">
+                  <a>손하기</a>
+                </span>
+              </div>
+            </li>
+
+            <li>
+              <div class="genreRecomImg2">
+                <a>
+                  <span class="mask"></span>
+                  <img width="218" height="120" src="gen_recom5.png">
+                </a>
+              </div>
+
+              <div class="genreRecomInfo2">
+                <h6 class="title">
+                  <a><span>바른연애 길잡이</span></a>
+                </h6>
+                <p>
+                  <a><span>80</span></a>
+                </p>
+                <span class="user">
+                  <a>남수</a>
+                </span>
+              </div>
+            </li>
+
+            <li>
+              <div class="genreRecomImg2">
+                <a>
+                  <span class="mask"></span>
+                  <img width="218" height="120" src="gen_recom6.png">
+                </a>
+              </div>
+
+              <div class="genreRecomInfo2">
+                <h6 class="title">
+                  <a><span>썸머 브리즈</span></a>
+                </h6>
+                <p>
+                  <a><span>일곱째날</span></a>
+                </p>
+                <span class="user">
+                  <a>한경찰</a>
+                </span>
+              </div>
+            </li>
+
+
+          </ul>
+        </div>
+
+        <div class="genreRecomBox_area">
+        </div>
+      </div>
     </div>
 
     <div>
