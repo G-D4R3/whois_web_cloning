@@ -701,3 +701,355 @@ ul.genreRecom li{
 .genreRecomInfo2 .user{
   color: #767676;
 }
+
+.genreRecomBox_area{
+  overflow: hidden;
+}
+
+h3.titleMain{
+  position: relative;
+  padding: 26px 0 10px;
+  border-bottom: 1px solid #e5e5e5;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h3.titleMain .Ntxt_best{
+  width: 170px;
+  height: 16px;
+  background-position: -110px -120px;
+}
+
+.genreRecomBox_area ul.genreRecom{
+  padding-bottom: 33px;
+  width: 714px;
+  height: 379px;
+}
+
+.genreRecomBox_area ul.genreRecom>li{
+  float: left;
+  padding: 0 10px;
+  width: 218px;
+  height: 346px;
+}
+
+.genreRecomBox_area ul.genreRecom h4{
+  font-size: 13px;
+  color: #555;
+  margin-top: 14px;
+  margin-bottom: 0;
+}
+
+ul.genreRecomList{
+  overflow: hidden;
+  margin-top: 7px;
+  width: 218px;
+  height: 340px;
+  padding: 0;
+}
+
+ul.genreRecomList li{
+  position: relative;
+  margin-top: 20px;
+  width: 218px;
+  height: 90px;
+}
+
+ul.genreRecomList li:first-child{
+  margin-top: 0;
+}
+
+.genreRecomImg{
+  float:left;
+  position: relative;
+}
+
+.genreRecomImg .mask{
+  position: absolute;
+  width: 82px;
+  height: 89px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid #000;
+  opacity: .1;
+}
+
+.genreRecomInfo{
+  float: left;
+  overflow: hidden;
+  width: 127px;
+  margin-left: 7px;
+}
+
+.genreRecomInfo h6.title{
+  margin: 1px 0;
+  font-size: 13px;
+  word-wrap: break-all;
+}
+
+.genreRecomInfo h6.title a{
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.genreRecomInfo a.user{
+  color: #767676;
+  font-size: 11px;
+  letter-spacing: -1px;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.genreRecomInfo .summary{
+  height: 32px;
+  margin: 10px 0 7px 0;
+  color: #434343;
+  line-height: 16px;
+  word-break: break-all;
+}
+
+.genreRecomInfo .rating_type{
+  margin-top: -3px;
+  height: 15px;
+}
+
+.rating_type .star{
+  width: 60px!important;
+  height: 14px!important;
+}
+
+.rating_type strong{
+  display: inline-block;
+  margin-left: 3px;
+  margin-top: -6px;
+  font-size: 12px;
+  color: #606060;
+  vertical-align: middle;
+}
+
+
+h4.subtlt3{
+  font-size: 13px;
+  color: #555;
+  height: 16px;
+  margin-top: 14px;
+}
+
+#updateCompositionContent .genreRecom>li{
+  float: left;
+  padding: 0 10px;
+  width: 218px;
+  height: 257px;
+}
+
+#updateCompositionContent ul.genreRecomList{
+  overflow: hidden;
+  margin-top: 7px;
+  height: 220px;
+}
+
+#updateCompositionContent ul.genreRecomList li{
+  width: 218px;
+  height: 100px;
+}
+
+.genreRecomImg3{
+  float: left;
+  width: 80px;
+  height: 100px;
+}
+
+.genreRecomImg3 a{
+  display: block;
+  height: 100px;
+}
+
+.genreRecomInfo3{
+  overflow: hidden;
+  float: left;
+  width: 121px;
+  height: 90px;
+  margin: 1px 0 0 10px;
+  padding-top: 2px;
+}
+
+.genreRecomInfo3 h6.title{
+  margin-top: 0;
+  font-size: 12px;
+  margin-bottom: 1px;
+  padding-bottom: 4px;
+  letter-spacing: -1px;
+}
+
+.genreRecomInfo3 .user{
+  color: #767676;
+}
+
+.genreRecomInfo3 .summary{
+  height: 32px;
+  margin: 8px 0 3px;
+  line-height: 15px;
+  color: #434343;
+  letter-spacing: -1px;
+  word-break: break-all;
+}
+
+.genreRecomInfo3 .summary a{
+  color: #434343;
+  line-height: 15px;
+}
+
+.genreRecomInfo .rating_type{
+  margin-top: -2px;
+}
+
+
+
+#aside{
+  float: right;
+  width: 240px;
+  padding-right: 10px;
+}
+
+#aside div:first-child{
+  margin-top: 0;
+  clear: both;
+}
+
+#aside div{
+  margin-top: 8px;
+  clear: both;
+}
+
+#aside iframe{
+  width: 240px;
+  height: 240px;
+  border: 0;
+  vertical-align: top;
+}
+
+.asideButonupload{
+  border: 0;
+  height: 42px;
+}
+
+.asideRollng{
+  position: relative;
+}
+
+.asideBox{
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #e1e1e1;
+}
+
+#aside .asideBox div{
+  margin: 0;
+}
+
+h4.asideBoxTitle{
+  position: relative;
+  width: 238px;
+  height: 30px;
+  border-bottom: 1px solid #e1e1e1;
+  margin: 0;
+}
+
+h4.asideBoxTitle img{
+  margin: 9px 0 0 12px;
+}
+
+h4.asideBoxTitle a img{
+  float: right;
+  margin: 6px 6px 0 0;
+}
+
+ul.asideBoxTab{
+  padding: 0 0 0 0;
+  margin: 0;
+  float: none;
+  width: 238px;
+  height: 31px;
+  *zoom: 1;
+}
+
+ul.asideBoxTab li.choice{
+  border-bottom: 0;
+}
+
+ul.asideBoxTab li{
+  float: left;
+  width: 119px;
+  height: 30px;
+  margin-left: -1px;
+  border-left: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
+  text-align: center;
+}
+
+ul.asideBoxTab li img{
+  margin-top: 9px;
+}
+
+
+#top ol.asideBoxRank{
+  margin: 0;
+  position: relative;
+  padding: 15px 0 7px;
+  width: 238px;
+  height: 210px;
+  zoom: 1;
+  list-style: decimal;
+  background: url("ranking.png");
+}
+
+#top ol.asideBoxRank li{
+  overflow: hidden;
+  position: relative;
+  margin: 0 0 6.3px 13px;
+  padding: 0 55px 0 19px;
+  _padding-right: 0;
+  zoom: 1;
+  list-style: decimal;
+}
+
+#down ol.asideBoxRank2{
+  margin: 0;
+  position: relative;
+  padding: 15px 0 7px;
+  width: 238px;
+  height: 188px;
+  zoom: 1;
+  list-style: decimal;
+  background: url("ranking2.png");
+}
+
+ol.asideBoxRank2 li .rc_info{
+  float: left;
+  width: 110px;
+  height: 30px;
+  padding: 2px 0 5.4px 74px;
+  line-height: 15px;
+}
+
+ol.asideBoxRank2 li .rc_info .tit{
+  display: block;
+  overflow: hidden;
+  color: #434343;
+  height: 15px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+ol.asideBoxRank2 li .rc_info em{
+  display: block;
+  height: 15px;
+  font-size: 11px;
+  color: #767676;
+  font-style: normal;
+}
