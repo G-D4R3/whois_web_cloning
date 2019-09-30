@@ -1,0 +1,485 @@
+body{
+  font-size: 12px;
+  color: #434343;
+}
+
+div{
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: #434343;
+  text-decoration: none;
+}
+
+fieldset{
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  margin: 0;
+}
+
+li{
+  list-style: none;
+}
+ul{
+  margin:  0;
+}
+
+#header{
+  position: relative;
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+  text-align: left;
+}
+
+#snb_wrap{
+  height: 37px;
+  padding: 10px 0 8px;
+  overflow: hidden;
+}
+
+#header h1{
+  position: relative;
+  margin: 0;
+  z-index: 200;
+  float: left;
+  padding: 7px 30px 0 0;
+}
+
+
+#header h1 .Ntxt_naver{
+  float: left;
+  width: 53px;
+  height: 10px;
+  font-size: 10px;
+  background-position: 0 -170px;
+  background: url("title.png");
+  margin-top: 6px;
+}
+
+#header h1 .Ntxt_comic{
+  float: left;
+  width: 40px;
+  height: 21px;
+  font-size: 21px;
+  background-position: -65px -170px;
+  margin-left: 7px;
+}
+
+#header h1 .bar{
+  float: left;
+  overflow: hidden;
+  width: 1px;
+  height: 13px;
+  margin: 6px 10px 0 8px;
+  background-color: #d2d2d2;
+  line-height: 999px;
+  vertical-align: top;
+}
+
+#header h1 .Ntxt_novel{
+  float: left;
+  color: #767676;
+  width: 40px;
+  height: 15px;
+  font-size: 15px;
+  background-position: -120px -170px;
+  margin-top: 3px;
+}
+
+#gnb{
+  position: absolute;
+  right: 0;
+  margin-top: 20px;
+  margin-right: 14px;
+}
+
+#gnb button{
+  margin-top: 1px;
+}
+
+#gnb ul li{
+  float: left;
+  margin-left: 20px
+}
+#snb_wrap .ph{
+  position: absolute;
+  top: 0;
+  left: 10px;
+  bottom: 0;
+  line-height: 35px;
+  color: #737373;
+}
+
+#snb_wrap .snb_search_box{
+  float: left;
+  position: relative;
+  z-index: 50;
+  width: 268px;
+  height: 35px;
+  line-height: 35px;
+  padding: 0 35px 0 10px;
+  border: 1px solid #e5e5e5;
+}
+
+#snb_wrap .snb_search_box .Nico_search{
+  width: 17px;
+  height: 17px;
+  background-position: -220px 0;
+}
+
+#snb_wrap .snb_search_box .snb_search_text{
+  width: 100%;
+  border: 0;
+  color: #737373;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+
+#snb_wrap .snb_search_box .btn_search{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 9px;
+  width: 16px;
+  height: 16px;
+  border: 0;
+  background: 0;
+  -webkit-appearance: none;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  cursor: pointer;
+  padding: 8px;
+  background-image: url("magnifying-glass.png");
+}
+
+
+.notice_info{
+  overflow: hidden;
+  position: absolute;
+  top: 56px;
+  right: 16px;
+  height: 40px;
+}
+
+.notice_info .notice_rolling{
+  display: inline-block;
+  max-width: 330px;
+  overflow: hidden;
+  height: 100%;
+}
+
+
+.notice_info .notice_rolling li{
+  position: relative;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+#header_wrap #menu{
+  clear: both;
+  height: 39px;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #e5e5e5;
+  background: #fff;
+  padding: 0 10px;
+}
+
+#header_wrap #menu ul{
+  padding: 0;
+}
+
+#header_wrap #menu ul.menu{
+  width: 960px;
+  margin: 0 auto;
+}
+
+#header_wrap #menu ul.menu li{
+  float: left;
+  position: relative;
+}
+
+#header_wrap #menu ul.menu li a{
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 15px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#header_wrap #menu ul.menu li.current{
+  background: #00d564;
+  margin: -1px 0;
+}
+
+#header_wrap #menu ul.menu .current .Ntxt_webtoon{
+  width: 13px;
+  height: 14px;
+  color: #FFFFFF;
+  background-position: 0 0;
+  margin-top: 13px;
+}
+
+#header_wrap #menu ul.menu .Ntxt_webtoon{
+  width: 24px;
+  height: 13px;
+  font-size: 13px;
+  background-position: -20px 0;
+  margin-top: 13px;
+}
+
+#header_wrap #menu ul.menu .Ntxt_best_challenge{
+  width: 62px;
+  height: 13px;
+  background-position: -50px 0;
+  margin-top: 13px;
+}
+
+#header_wrap #menu ul.menu .Ntxt_challenge_comic{
+  width: 49px;
+  height: 13px;
+  background-position: -120px 0;
+  margin-top: 13px;
+}
+
+#header_wrap #menu ul.menu .Ntxt_mypage{
+  width: 60px;
+  height: 13px;
+  background-position: -180px 0;
+  margin-top: 13px;
+}
+
+#header_wrap #menu ul.menu .bar{
+  display: inline-block;
+  width: 1px;
+  height: 13px;
+  background: #ced2d6;
+  vertical-align: top;
+  margin-top: 14px;
+}
+
+#header_wrap #menu ul.menu .Ntxt_short_story{
+  width: 43px;
+  height: 13px;
+  color: #787878;
+  background-position: 0 -40px;
+  margin-top: 13px;
+}
+
+#header_wrap #menu ul.menu .Ntxt_genre_novel{
+  width: 48px;
+  height: 14px;
+  color: #787878;
+  background-position: -75px -40px;
+  margin-top: 13px;
+}
+
+#header_wrap #submenu{
+  border-bottom: 1px solid #ededed;
+  background: #fafafa;
+  padding: 0 10px;
+}
+
+#header_wrap #submenu ul.submenu{
+  overflow: hidden;
+  width: 960px;
+  margin: 0 auto;
+  padding-left: 0;
+}
+
+#header_wrap #submenu ul.submenu li{
+  float: left;
+}
+
+#header_wrap #submenu ul.submenu li:first-child a{
+  padding-left: 0;
+}
+
+#header_wrap #submenu ul.submenu li.on{
+  font-weight: bold;
+}
+
+#header_wrap #submenu ul.submenu li a{
+  display: block;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 14px;
+}
+
+#container{
+  clear: both;
+  position: relative;
+  width: 980px;
+  height: 1451px;
+  min-height: 100%;
+  padding: 8px 0 100px;
+  margin: 0 auto;
+}
+
+#content{
+  float: left;
+  position: relative;
+  width: 694px;
+  padding-left: 10px;
+}
+
+ul.category_tab{
+  border-bottom: 1px solid #e5e5e5;
+  margin-top: 16px;
+  height: 25px;
+  padding-left: 0;
+}
+
+.category_tab li{
+  float: left;
+  padding: 0 7px;
+}
+
+.category_tab li:first-child{
+  padding-left: 0;
+}
+
+.category_tab li a{
+  display: inline-block;
+  font-size: 13px;
+  color: #606060;
+  padding: 0 2px 8px;
+  margin-bottom: -1px;
+}
+
+.category_tab li.on a{
+  font-weight: bold;
+  color: #00c85e;
+  border-bottom: 2px solid #00d564;
+}
+
+.comicinfo{
+  padding: 30px 0;
+  zoom: 1;
+}
+
+.comicinfo .thumb{
+  position: relative;
+  margin-bottom: 3px;
+  float: left;
+  margin-right: 15px;
+}
+
+.comicinfo .detail{
+  float: left;
+  width: 554px;
+}
+
+.comicinfo .detail h2{
+  float: left;
+  max-width: 395px;
+  margin: 1px 0 11px -1px;
+  font-size: 18px;
+  color: #020202;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+.detail h2 span.wrt_nm{
+  display: inline-block;
+  margin: 0 4px 0 7px;
+  font-size: 12px;
+  color: #434343;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+.comicinfo .detail>p{
+  overflow: hidden;
+  clear: both;
+  margin: 9px 0 0;
+  line-height: 18px;
+  color: #666;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+.comicinfo .detail .detail_info{
+  margin: 7px 0 11px;
+}
+
+span{
+  margin: 0;
+  padding: 0;
+}
+
+.detail_info .age{
+  position: relative;
+  margin-left: 15px;
+}
+
+.detail_info .age:after{
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: -8px;
+  width: 1px;
+  height: 9px;
+  background: #c9c9c9;
+}
+
+ul.btn_group{
+  zoom: 1;
+  margin-top: 11px;
+  padding-left: 0;
+}
+
+.btn_group li{
+  float: left;
+  position: relative;
+  margin-right: -1px;
+}
+
+.btn_group>li>a{
+  display: block;
+  width: auto;
+  height: 30px;
+  border: 1px solid #b8b8b8;
+  padding: 0 11px;
+  cursor: pointer;
+}
+
+.btn_group>li>a.book_marker>img{
+  margin-top: 8px;
+}
+
+.btn_group>li>a.first>img{
+  margin-top: 10px;
+}
+
+.btn_group>li>a.other>img{
+  margin-top: 10px;
+}
+
+.btn_group li.u_likeit_module{
+  margin-left: 6px;
+}
+
+.u_likeit_module .u_likeit_btn{
+  display: inline-block;
+  min-width: 58px;
+  height: 30px;
+  margin: 0;
+  padding: 0 15px;
+  border: 1px solid #b8b8b8;
+  text-align: center;
+  zoom: 1;
+  cursor: pointer;
+}
+
+.u_likeit_module .u_likeit_btn img{
+  margin-top: 8px;
+}
