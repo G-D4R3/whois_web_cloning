@@ -1,7 +1,8 @@
 body{
-  margin: 0;
+  margin: 0 auto;
   font-size: 12px;
   width: 960px;
+  height: auto;
   color: #434343;
 }
 
@@ -33,13 +34,18 @@ ul{
   margin:  0;
 }
 
+#header_wrap{
+  width: 100%;
+}
+
 #header{
   position: relative;
-  width: 960px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 10px;
   text-align: left;
 }
+
 
 #snb_wrap{
   height: 37px;
@@ -124,7 +130,7 @@ ul{
   float: left;
   position: relative;
   z-index: 50;
-  width: 268px;
+  width: 200px;
   height: 35px;
   line-height: 35px;
   padding: 0 35px 0 10px;
@@ -199,7 +205,7 @@ ul{
 }
 
 #header_wrap #menu ul.menu{
-  width: 960px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -288,6 +294,7 @@ ul{
 .mainTopArea{
   position: relative;
   width: 960px;
+  height: 252px;
   margin: 0 auto;
   padding: 12px 10px 14px;
 }
@@ -1144,7 +1151,7 @@ ol.asideBoxRank2 li .rc_info em{
 }
 
 #footer{
-  width: 960px;
+  width: 100%;
   clear: both;
   margin: 0px auto;
   padding: 40px 10px 78px;
